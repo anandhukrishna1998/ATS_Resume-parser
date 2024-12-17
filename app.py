@@ -9,12 +9,10 @@ import spacy
 from langdetect import detect
 
 
-# Load pre-installed spaCy models
-try:
-    nlp_en = spacy.load("en_core_web_sm")
-    nlp_fr = spacy.load("fr_core_news_sm")
-except Exception as e:
-    raise Exception(f"Failed to load spaCy models: {e}")
+
+# Load spaCy models
+nlp_en = spacy.load("en_core_web_sm")
+nlp_fr = spacy.load("fr_core_news_sm")
 # Load environment variables
 load_dotenv()
 
