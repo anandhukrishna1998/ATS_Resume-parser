@@ -1,6 +1,8 @@
 # ATS Resume Parser with Gemini AI
 
-This is an AI-powered ATS (Applicant Tracking System) Resume Parser that uses Gemini AI (from Google Generative AI) to analyze resumes and job descriptions. It matches resumes to job descriptions, extracts keywords, and provides recommendations for improving the resume to enhance compatibility with the job description.
+In the face of a challenging job search and continuous rejections, without even getting an interview, I was inspired to develop my own ATS system that can help tailor my resume to match job descriptions. This system utilizes cutting-edge Gemini AI from Google Generative AI to analyze both resumes and job descriptions.
+
+The AI-powered Resume Parser intelligently matches resumes to job descriptions, extracting key skills, relevant phrases, and specific industry keywords. By analyzing both documents, it provides actionable recommendations to optimize your resume for improved compatibility with the job description, significantly boosting your chances of standing out to employers and passing through ATS filters.
 
 ## Features
 - **ATS Compatibility Scoring**: Evaluate how well a resume matches a job description.
