@@ -6,5 +6,3 @@ google-generativeai
 langdetect
 docx2txt
 spacy
-spacy[en_core_web_sm]
-spacy[fr_core_news_sm]
