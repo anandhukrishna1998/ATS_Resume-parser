@@ -1,0 +1,7 @@
+streamlit
+python-docx
+PyMuPDF
+python-dotenv
+google-generativeai
+spacy
+langdetect
