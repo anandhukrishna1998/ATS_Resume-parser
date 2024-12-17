@@ -8,23 +8,20 @@ import google.generativeai as genai
 import spacy
 from langdetect import detect
 
-# Function to ensure spaCy models are downloaded
+
+# Function to download spaCy models
 def download_spacy_model(model_name):
     try:
         spacy.load(model_name)
     except OSError:
-        print(f"Downloading spaCy model: {model_name}")
-        os.system(f"python -m spacy download {model_name}")
-        spacy.load(model_name)
+        from spacy.cli import download
+        download(model_name)
 
-# Load the English model
+# Load the spaCy models
 download_spacy_model("en_core_web_sm")
-nlp_en = spacy.load("en_core_web_sm")
-
-# Load the French model
 download_spacy_model("fr_core_news_sm")
+nlp_en = spacy.load("en_core_web_sm")
 nlp_fr = spacy.load("fr_core_news_sm")
-
 # Load environment variables
 load_dotenv()
 
@@ -49,9 +46,6 @@ def extract_text(uploaded_file):
         return docx2txt.process(uploaded_file)
     return None
 
-# Load SpaCy models
-nlp_en = spacy.load("en_core_web_sm")
-nlp_fr = spacy.load("fr_core_news_sm")
 
 # Preprocess text
 def preprocess_text(text):
