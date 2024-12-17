@@ -11,8 +11,8 @@ from langdetect import detect
 
 
 # Load spaCy models
-nlp_en = spacy.load("en_core_web_sm")
-nlp_fr = spacy.load("fr_core_news_sm")
+nlp_en = spacy.load("models/en_core_web_sm-3.7.1")
+nlp_fr = spacy.load("models/fr_core_news_sm-3.7.0")
 # Load environment variables
 load_dotenv()
 
