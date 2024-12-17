@@ -3,8 +3,8 @@ python-docx
 PyMuPDF
 python-dotenv
 google-generativeai
-spacy
 langdetect
 docx2txt
+spacy
 spacy[en_core_web_sm]
 spacy[fr_core_news_sm]
