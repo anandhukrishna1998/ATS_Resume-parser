@@ -1,6 +1,6 @@
 # ATS Resume Parser with Gemini AI
 
-In the face of a challenging job search and continuous rejections, without even getting an interview, I was inspired to develop my own ATS system that can help tailor my resume to match job descriptions. This system utilizes cutting-edge Gemini AI from Google Generative AI to analyze both resumes and job descriptions.
+In the face of a challenging job search and continuous rejections, without even getting an interview, I was inspired to develop my own ATS system that can help tailor my resume to match job descriptions. This system utilizes cutting-edge gemini-2.0-flash-exp model from Google Generative AI to analyze both resumes and job descriptions.
 
 The AI-powered Resume Parser intelligently matches resumes to job descriptions, extracting key skills, relevant phrases, and specific industry keywords. By analyzing both documents, it provides actionable recommendations to optimize your resume for improved compatibility with the job description, significantly boosting your chances of standing out to employers and passing through ATS filters.
 
@@ -11,7 +11,7 @@ The AI-powered Resume Parser intelligently matches resumes to job descriptions, 
 
 ## Technologies Used
 - **Streamlit**: A framework to create interactive web apps.
-- **Google Generative AI**: Used for natural language processing and analysis.
+- **Google Generative AI**: Used gemini-2.0-flash-exp LLM model.
 - **SpaCy**: For text preprocessing and language model handling.
 - **PyMuPDF**: For extracting text from PDF resumes.
 - **python-docx**: For extracting text from DOCX resumes.
